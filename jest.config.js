@@ -9,6 +9,7 @@ module.exports = {
   restoreMocks: true,
   resetMocks: true,
   moduleDirectories: ['node_modules', '<rootDir>/src'],
+  silent: true,
   transform: {
     '^.+\\.ts?$': 'ts-jest',
   },
